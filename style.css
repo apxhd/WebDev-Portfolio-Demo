@@ -220,7 +220,7 @@ nav a:focus{
 ====================== */
 
 .home-hero{
-    background-image: url('/img/hero-bg.jpg');
+    background-image: url('img/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     padding: 10em 0;
@@ -242,7 +242,7 @@ nav a:focus{
     padding: 4em;
     background: #232323;
     width: 100vw;
-    margin-left: -2.5%;
+    margin-left: -20.5%;
     outline: 2px solid #00ffc6; 
     outline-offset: -2.5em;
     color: #FFF;
@@ -276,7 +276,8 @@ nav a:focus{
     }
 
     .home-about {
-        background: url(/img/who-we-are.jpg);
+        background: url(img/who-we-are.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 10em;
     }
@@ -285,7 +286,7 @@ nav a:focus{
         width: 50%;
         padding: 7em;
         outline-offset: -3.75em;
-        margin-left: -2.5%;
+        margin-left: -20.5%;
         top: -5em;
         text-align: left;
         box-shadow: 0 0 4em 0 rgba(0,0,0,.3);
